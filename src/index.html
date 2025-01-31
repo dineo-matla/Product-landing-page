@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
   </head>
   <body>
     <header id="header">
-      <img src="" id="header-img" />
+      <img src="/src/media/logo.png" id="header-img" />
       <nav id="nav-bar">
         <ul>
           <li>
@@ -38,6 +38,7 @@
         </ul>
       </nav>
     </header>
+
     <main class="main-doc">
       <h1>Explore Smarter with GlobeGuru</h1>
       <h3>Discover, Plan, Explore - Travel Made Effortless.</h3>
@@ -50,13 +51,11 @@
         <p>Ready to travel like a guru?</p>
         <button id="CTA">Plan your trip today!</button>
       </div>
-      <iframe
-        width="560"
-        height="315"
-        src="/media/12460001_1920_1080_30fps.mp4.crdownload"
-        frameborder="0"
-        allow="acceler"
-      ></iframe>
+      <video
+        src="https://videos.pexels.com/video-files/28718908/12459995_640_360_30fps.mp4"
+        id="video"
+        controls
+      ></video>
       <section id="features">
         <h2>Features</h2>
         <h4>Why Choose GlobeGuru?</h4>
@@ -114,44 +113,46 @@
       <section id="pricing">
         <h2>Pricing</h2>
         <h4>Flexible plans for every traveller</h4>
-        <div class="free-plan">
-          <h4>Free Plan:</h4>
-          <p>Perfect for casual travelers.</p>
-          <ul>
+        <div class="card-container">
+          <div class="free-plan">
+            <h4>Free Plan:</h4>
+            <p>Perfect for casual travelers.</p>
+            <ul>
+              <h5>Features:</h5>
+              <li>Basic itinerary suggestions</li>
+              <li>Budget travel tips</li>
+              <li>Access to community reviews</li>
+              <li>Limited customer support</li>
+            </ul>
+            <h5>Price: $0/month</h5>
+            <button class="CTA">Select</button>
+          </div>
+          <div class="pro-plan">
+            <h4>Pro Plan:</h4>
+            <p>For adventurers who want it all.</p>
             <h5>Features:</h5>
-            <li>Basic itinerary suggestions</li>
-            <li>Budget travel tips</li>
-            <li>Access to community reviews</li>
-            <li>Limited customer support</li>
-          </ul>
-          <h5>Price: $0/month</h5>
-          <button class="CTA">Select</button>
-        </div>
-        <div class="pro-plan">
-          <h4>Pro Plan:</h4>
-          <p>For adventurers who want it all.</p>
-          <h5>Features:</h5>
-          <ul>
-            <li>Custom itineraries</li>
-            <li>Exclusive deals on flights and stays</li>
-            <li>Advanced itinerary editing</li>
-            <li>24/7 live support</li>
-          </ul>
-          <h5>Price: $9.99/month</h5>
-          <button class="CTA">Select</button>
-        </div>
-        <div class="premium-plan">
-          <h4>Premium Plan:</h4>
-          <p>The ultimate travel planning experience.</p>
-          <h5>Features:</h5>
-          <ul>
-            <li>All Pro features + live updates on delays/weather</li>
-            <li>Travel insurance guidance</li>
-            <li>Priority customer support</li>
-            <li>Early access to new features</li>
-          </ul>
-          <h5>Price: $19.99/month</h5>
-          <button class="CTA">Select</button>
+            <ul>
+              <li>Custom itineraries</li>
+              <li>Exclusive deals on flights and stays</li>
+              <li>Advanced itinerary editing</li>
+              <li>24/7 live support</li>
+            </ul>
+            <h5>Price: $9.99/month</h5>
+            <button class="CTA">Select</button>
+          </div>
+          <div class="premium-plan">
+            <h4>Premium Plan:</h4>
+            <p>The ultimate travel planning experience.</p>
+            <h5>Features:</h5>
+            <ul>
+              <li>All Pro features + live updates on delays/weather</li>
+              <li>Travel insurance guidance</li>
+              <li>Priority customer support</li>
+              <li>Early access to new features</li>
+            </ul>
+            <h5>Price: $19.99/month</h5>
+            <button class="CTA">Select</button>
+          </div>
         </div>
         <p>Choose Your Plan and Start Exploring!</p>
       </section>
@@ -194,6 +195,6 @@
       </div>
       <p>Copyright © 2025 GlobeGuru</p>
     </footer>
-    <script src="src/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
