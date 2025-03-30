@@ -34,8 +34,8 @@ The landing page consists of the following sections:
 
 # Contributing
 
-We welcome contributions to improve the landing page! If you'd like to report an issue or submit a pull request, please follow our contribution guidelines.
+We welcome contributions to improve the landing page! If you'd like to report an issue or submit a pull request.
 
 # Live Demo
 
-View the live demo of the TravelPlanner landing page at [your-website-url].
+View the live demo of the GlobeGuru landing page at [[your-website-url](https://globeguru.netlify.app/)].
