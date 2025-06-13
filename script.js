@@ -1,15 +1,3 @@
-// Mobile Navigation Toggle
-document.addEventListener("DOMContentLoaded", () => {
-  const navBar = document.getElementById("nav-bar");
-  const menuToggle = document.createElement("div");
-  menuToggle.innerHTML = '<i class="bx bx-menu"></i>';
-  menuToggle.classList.add("menu-toggle");
-  document.getElementById("header").appendChild(menuToggle);
-
-  menuToggle.addEventListener("click", () => {
-    navBar.classList.toggle("active");
-  });
-});
 
 // CTA Button Interaction
 const ctaButton = document.getElementById("CTA-button");
